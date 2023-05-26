@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head
+{
+    background-color:rgb(137, 220, 237);
+    /* width: 200px; */
+    font-family: 'Satisfy', cursive;
+    /* height: 800px; */
+  
+}
+.head header{
+    padding: 27px;
+    text-align: right;
+}
+.head header a{
+    padding:27px ;
+    font-size: 25px;
+    text-decoration: none;
+    
+    
+} 
+.main{
+    /* background-color:rgb(240, 100, 100);     */
+    width: 85vw;
+    height: 100vh;
+    width: 100vw;
+}
+.mycontact {
+    font-size: small;
+    text-align: right;
+    padding: 10px;
+    background-color: #a3b1b1;
+    /* flex-direction: column; */
+    /* flex-flow: column; */
+    float: right;
+
+}
+.container {
+    display: flex;
+    background-color: white;
+}
+.info{
+    /* background-color:yellowgreen; */
+    height: 78vh;
+    width: 80vw;
+    margin: 144px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.devinfo{
+    
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.data{
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+}
+.about{
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+}
+.button button{
+    font-family: 'Acme', sans-serif;
+    margin-top: 30px;
+    padding: 9px 15px;
+    border-radius:22px ;
+    color: rgb(135, 10, 10);
+    background-color: rgb(59, 129, 227);
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+
+}
+.button button:hover{
+   background-color: aliceblue;
+   color: rgb(34, 53, 53);
+}
+
+/* CONTACTFORM */
+.contactform{
+    
+    padding: 50px 0x;
+    padding-right: 100px;
+    font-weight: bold;
+    
+    font-family: 'Acme', sans-serif;
+}
+.contactform h1{
+    font-family: 'Satisfy', cursive;
+}
+.Companymail{
+  padding: 34px 0;
+  
+    }
+    #emailHelp {
+        color: rgb(105 56 150);
+    }
+    button.btn.btn-primary {
+        color: brown;
+        font-size: medium;
+        height: 80pxpx;  
+    border-radius: 10px;
+    width: 90px;
+    font-weight: bold;
+
+    font-family: 'Acme', sans-serif;
+    margin-top: 30px;
+    
+    background-color: rgb(173, 197, 231);
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+    }
+    .button.btn.btn-primary:hover{
+        background-color: rgb(228, 146, 14);
+        color: rgb(34, 53, 53);
+     }
+    input.form-control{
+        height: 2vw;
+        font-weight: bold;
+        border-radius: 4px;
+        width: 300px;
+    }
+    input#Companymail {
+        width: 300px;
+        border-radius: 4px;
+    }
+    select#inputState {
+        font-weight: bold;
+        border-radius: 6px;
+        border-width: 4px;
+    }
+    .mb-3{
+        padding-left: 20px;
+    }
+    input#message {
+        padding: 80px;
+    }
+
+    .content-section-a p a {
+      color: silver;
+      font-weight: bold;
+    } 
+
+    
+    
+    /* Portfolio section*/
+    .jumbotron{
+      margin-bottom: 0;
+      }
+      banner-1 {
+        background-color: #215750;
+        min-height: 730px;
+        padding: 62px;
+        color: wheat;
+        font-size: large;
+    }
+      h1{
+          margin-top: 0rem;
+      }
+      button.btn.btn-outline-dark {
+        font-size: large;
+        border-radius: 6px;
+    }
+img.card-img-top {
+  padding: 73px;
+    display: flex;
+    height: 224px;
+    width: 175px;
+    flex-direction: row;
+    float: left;
+}
+      
+      .banner-2{
+          background-color: #541226 ;
+          min-height:730px;
+      }
+      .banner-3{
+          background-color: #3a0520;
+          min-height:300px;
+      }
+    
+      .profile-logo{
+      max-width: 10rem;
+      max-height: 10rem;
+      border-radius: 50%;
+      
+      }
+   
+          .profile-logo:hover{
+              transform: scale(1.2) rotate(360deg);
+              transition: all ease-in-out 250ms;
+            }
+           
+      
+            .form-inline > * {
+              margin:5px 40px;
+              margin-left: 6rem;
+           }
+           .card{
+              background-color:  #300333;
+           }
+       
+           .card-footer {
+            float: left;
+        }
+            .card-body {
+              padding: 99px;
+              height: 80px;
+              display: inline-block;
+              text-align: inherit;
+              float: left;
+          }
+          .card-title{
+            font-size: x-large;
+            /* font-family: 'Satisfy', cursive; */
+          }
+          .card-body {
+            font-family: 'Acme', sans-serif;
+            padding: 18px;
+        }
+        img.card-img-top {
+          padding: 9px;
+      }
+      section#portfolio {
+        background-color: slategrey;
+    }
+      
+    .grid-cols-1 {
+      grid-template-columns: repeat(1,minmax(0,1fr));
+  }
+  .jumbotron.jumbotron-fluid.banner-1 {
+    padding: 79px;
+}
+button.btn.btn-outline-dark {
+  font-family: 'Acme', sans-serif;
+  margin-top: 30px;
+  padding: 9px 15px;
+  border-radius: 22px;
+  color: rgb(135, 10, 10);
+  background-color: rgb(59, 129, 227);
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+}
+.container.text-center {
+    padding: 47px 70px 0px 62px;
+    background-color: #f3bdf3;
+    width: 1000px;
+    margin: 150px;
+}
